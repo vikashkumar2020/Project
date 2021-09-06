@@ -12,19 +12,23 @@
   align-items: center;
   height: fit-content;
   background-color: rgb(255, 251, 251);
-  height: 40px;
+  height: 60px;
   position: static;
   z-index: 20;
   box-shadow: 1px 0px 2px grey;
 }
 .nav-bar > div
 {
-  margin: 5px 10px;
-  color: #e95225;
-  font-size: 1.25rem;
+  height: 100%;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .link
 {
   text-decoration: none;
   color: #e95225;
+  font-size: 1.1rem;
+  font-weight: 500;
 }

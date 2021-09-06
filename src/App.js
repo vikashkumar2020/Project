@@ -18,7 +18,7 @@ function App() {
             <Link to="/" className="link">Home</Link>
           </div>
           <div>
-            <Link to="/signup" className="link">Log In / Sign Up</Link>
+            <Link to="/signup" className="link">Signup</Link>
           </div>
         </nav>
 
