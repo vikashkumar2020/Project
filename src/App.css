@@ -32,3 +32,37 @@
   font-size: 1.1rem;
   font-weight: 500;
 }
+.item-right
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60%;
+    margin: 25px;
+}
+.item-div
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: auto;
+    align-items:  center ;
+    margin:  20px ;
+    border:  0px solid transparent ;
+    border-radius:  10px ;
+    width:  80vw ;
+    z-index:  5 ;
+    background:  #eee ;
+    box-shadow:  0 8px 8px -4px lightblue ;
+}
+
+@media(max-width: 767px) {
+  .item-div
+  {
+    flex-direction: column;
+  }
+  .item-right
+  {
+    width: 100%;
+  }
+}
