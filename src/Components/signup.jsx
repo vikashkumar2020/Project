@@ -52,7 +52,7 @@ const Signup = () => {
               </select>
             </div>
             <div className="form-group">
-              <label className="col-form-label">Age:</label>
+              <label className="col-form-label">Date of Birth:</label>
               <input
                 type="date"
                 className={`form-control ${errors.date && "invalid"}`}
